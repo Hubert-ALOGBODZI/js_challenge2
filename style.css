@@ -1,0 +1,24 @@
+body{
+    background-color:  #A9D7E9;
+    align-items: center;
+}
+.card{
+    background-color:  #F3F3F3;
+    width: 50%;
+    margin-left: 25%;
+    height: 200px;
+    border-radius: 1em;
+}
+h1{
+    font-size: 22px;
+    text-align: center;
+}
+.content{
+    padding: 4%;
+}
+#input{
+    width: 70%;
+}
+#submit{
+    background-color: #198dbbc1;
+}
