@@ -1,3 +1,4 @@
+/*==============conditionnement pour l'alert=======*/
 function Ajouter() {
     if(document.formSaisie.titre.value!=""){
       return true;
@@ -7,3 +8,4 @@ function Ajouter() {
         return false;
     }
 }
+

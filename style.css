@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
 body{
     background-color:  #A9D7E9;
     align-items: center;
@@ -14,11 +20,33 @@ h1{
     text-align: center;
 }
 .content{
-    padding: 4%;
+     line-height: 50px;
 }
 #input{
-    width: 70%;
+    width: 75%;
+    margin-left: 3%;
+    padding: 1%;
 }
 #submit{
     background-color: #198dbbc1;
+    padding: 1%;
+}
+.lis{
+  
+    margin: 5%;
+    padding: 1%;
+    width: 80%;
+}
+.coch,
+.delete{
+    padding: 4%;
+    top: -1%;
+}
+.coch,
+.delete{
+   float: right;
+   margin-right: -8%;
+}
+.delete{
+    margin-right: -15%;
 }
